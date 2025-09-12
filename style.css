@@ -1,0 +1,348 @@
+@import url(/assets/css/reset.css);
+
+@font-face {
+    font-family: "pop-bold";
+    src: url("assets/font/Poppins-Bold.ttf");
+  }
+@font-face {
+    font-family: "pop-regular";
+    src: url("assets/font/Poppins-Regular.ttf");
+  }
+@font-face {
+    font-family: "pop-semi-bold";
+    src: url("assets/font/Poppins-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: "myr-regular";
+    src: url("assets/font/MyriadPro-Regular.otf");
+  }
+  @font-face {
+    font-family: "myr-bold";
+    src: url("assets/font/MyriadPro-Bold.otf");
+  }
+  @font-face {
+    font-family: "pop-bold";
+    src: url("assets/font/Poppins-Medium.ttf");
+  }
+.category
+{
+    /* margin-left: -17px; */
+    width: 280px;
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 10px black double; */
+    background-color: #EF8B59;
+}
+ul
+{
+    width: 667px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 65px;
+   
+}
+header .navbar nav ul li a 
+{
+    text-decoration: none;
+    color: #222222;
+    font-family: pop-regular;
+    font-size: 18px;
+}
+header .navbar .category i,header .navbar .category p
+{
+    color: whitesmoke;
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+header nav ul li i
+{
+    margin-left: 12px;
+    
+}
+p
+{
+    font-family: pop-bold;
+}
+.icone
+{   
+    margin-left: 30px;
+    width: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #222222;
+}
+/* atambatro amzay ny header rehetra */
+.navbar
+{
+
+    height: 87px;
+    margin-top: -10px;
+    margin-left: 157px;
+    width: 1045px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper
+{
+  
+    font-family: pop-regular;
+}
+.Best
+{
+    /* margin-top: 100px; */
+    font-size: 60px;
+    font-family: pop-bold;
+    color: #222222;
+}
+/* créeko ty suite à prblème bedabe */
+.vide
+{
+    margin-top: 0px;
+    background-color: #F9F3EB;
+    height: 100px;
+}
+.Improve
+{
+    color: #222222;
+    font-family: pop-regular;
+    font-size: 18px;
+}
+.btn
+{
+    height: 47px;
+    width: 215px;
+    /* border: 5px aqua double; */
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: #EF8B59;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    padding-top: 14px;
+}
+main
+{
+    background-color: #F9F3EB;
+    height: 530px;
+}
+/* Atambatro ny leftpart */
+.leftpart
+{
+    margin-top: -20px;
+    margin-left: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 644px;
+    height: 529px;
+    
+}
+/* Mifapitaingina */
+.relatif
+{
+    position: relative;
+    margin-left: -05px;
+    
+}
+/* .forme
+{
+    height: 452px;
+    width: 494px;
+}
+.fauteuil
+{
+    height: 420px;
+    width: 277px;
+} */
+.absolu
+{
+    position: absolute;
+    margin-top: -372px;
+    margin-left: 77px;
+}
+/* main section .rightpart img
+{
+    height: 305px;
+    width: 255px;
+} */
+
+/* Akambako amzay ny section ray */
+section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Top
+{
+    font-family: pop-semi-bold;
+    text-align: center;
+    /* repérage de bloc */
+    /* border: 5px black double; */
+    margin-bottom: 10px;
+}
+.Lorem
+{
+    font-family: myr-regular;
+    text-align: center;
+    color: #a3a3a3;
+   
+}
+.title
+{
+    margin-top: 105px;
+    margin-bottom: 65px;
+    width: 100%;
+    
+}
+.display {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    width: 275px;
+    border: 1px solid #ddd;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  .kintana
+  {
+    height: auto;
+    width: auto;
+    display: inline;
+  }
+  /* .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  } */
+  
+  .sale {
+    background-color:#ef8b59;
+    color: white;
+    padding: 5px 17px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: -70px;
+    position: absolute;
+    font-family: pop-medium;
+  }
+  .star
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .Reviews, .Decor, .Dollars, .Dollars1 {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .Argent
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+  }
+  .Dollars {
+    text-decoration: underline;
+    color: #a3a3a3;
+    font-family: pop-regular;
+  }
+  
+  .Dollars1 {
+    font-weight: bold;
+    color: #ef8b59;
+    font-family: pop-semi-bold;
+  }
+  .Reviews
+{
+    color: #a3a3a3;
+    font-family: pop-regular;
+
+}
+.secondpart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.thirdpart
+{
+  margin-top: 130px;
+  /* display: flex;
+  flex-direction: row; */
+  
+}
+.trightpart
+{
+  background-color: #EF8B59;
+  width: 50%;
+  margin-left: 675px;
+  margin-top: -360px;
+}
+.cuisine
+{
+  width: 50%;
+}
+.Modern
+{
+  font-size: 36px;
+  color: white;
+  padding-top: 75px;
+  padding-left: 75px;
+}
+.tlorem
+{
+  color: white;
+  font-family: pop-regular;
+  font-size: 18px;
+  width: 523px;
+  margin-top: 15px;
+  height: 212px;
+  padding-left: 75px;
+}
+.trait{
+  width: 60px;
+  height: 3px;
+  background-color: #a3a3a3;
+  margin: 10px auto;
+  border-radius: 2px;
+
+}
+.doubleimage
+{
+  /* width: 75%; */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  column-gap: 0px;
+}
